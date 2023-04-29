@@ -1,7 +1,9 @@
 package com.driver;
 
-import java.util.Date;
+import lombok.AllArgsConstructor;
 
+import java.util.Date;
+@AllArgsConstructor
 public class Message {
     private int id;
     private String content;
