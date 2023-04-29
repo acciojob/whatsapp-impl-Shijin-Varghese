@@ -14,4 +14,8 @@ public class User {
         this.mobile = mobile;
     }
 
+    public User(String name) {
+        this.name = name;
+    }
+
 }
